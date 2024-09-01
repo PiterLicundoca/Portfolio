@@ -49,14 +49,21 @@ mostrar.reveal( '.h1',{
 
    })
 
-   mostrar.reveal('#rodape',{
+
+   mostrar.reveal('#rodape1',{
     duration:2000,
-    distance:'3rem',
+    distance:'10rem',
     delay:90,
     origin:'left'
- 
     })
 
+   mostrar.reveal('#rodape',{
+    duration:2000,
+    distance:'10rem',
+    delay:90,
+    origin:'bottom'
+ 
+    })
 
     mostrar.reveal('.phero1',{
         duration:3000,
