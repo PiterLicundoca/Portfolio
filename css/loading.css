@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+  /*   background-color: rgba(0, 0, 0, 0.9); */
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to right, black,black);
+}
+
+.div1{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background: linear-gradient(to right, red, black);
+    background-image: url(../img/calogo.png);
+    background-position: center;
+    background-size: cover;
+    border: .1rem solid #222;
+    position: relative;
+    
+}
+
+.div1:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+
+    border-top: .1rem dashed rgb(255, 2, 2) ;
+     border-right: .4rem solid rgb(255, 2, 2);
+     border-bottom: .5rem solid transparent;
+     border-left: .5rem solid transparent;
+     width: 100%;
+     height: 100%;
+
+     border-radius: 50%;
+     background-color: transparent;
+     animation: rodar 5s ease infinite;
+}
+@keyframes rodar{
+    from{ transform: rotate(0deg); transition: 2s; }
+    to{ transform: rotate(3600deg); transition: 2s;}
+
+}
+h3{
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    z-index: 5;
+    animation: loadign 2s infinite alternate;
+    margin-top: 9rem;
+   
+    
+}
+
+@keyframes loadign{
+
+    from{opacity: 0; transition: 2s;}
+    to{  opacity: 2; transition: 2s;}
+} 
+
+@media(max-width:41rem){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:Arial, Helvetica, sans-serif ;
+    }
+    
+    section{
+        width: 100%;
+        height: 100vh;
+    }
+    
+}
