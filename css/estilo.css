@@ -1085,10 +1085,9 @@ margin-top: -4rem;
        }
       
        .servicos .slid-servicos{
-          width:70% ;
-          margin: 0rem -10rem ;
-
-       }
+               width: 75%;
+                margin: 0 auto;
+            }
 
        
        .slid-servicos img{
@@ -1204,11 +1203,10 @@ margin-top: -4rem;
              height: 30rem;
              }
             
-             .servicos .slid-servicos{
-                width:70%;
-                margin: 0rem -10rem ;
-
-             }
+              .servicos .slid-servicos{
+               width: 75%;
+                margin: 0 auto;
+            }
 
              
              .slid-servicos img{
@@ -1333,8 +1331,9 @@ margin-top: -4rem;
                 background-color: #ccc;
             }
 
-            .servicos .slid-servicos{
-                width: 180%;
+              .servicos .slid-servicos{
+               width: 75%;
+                margin: 0 auto;
             }
 
             .corpo1 .divcorpo1 p{
@@ -1467,7 +1466,8 @@ margin-top: -4rem;
             }
 
             .servicos .slid-servicos{
-                width: 180rem;
+               width: 75%;
+                margin: 0 auto;
             }
 
             .corpo1 .divcorpo1 p{
