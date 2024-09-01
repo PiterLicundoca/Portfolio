@@ -40,27 +40,17 @@ mostrar.reveal( '.h1',{
     delay: 100
    })
 
-
-   mostrar.reveal('#sugestao',{
-   duration:2000,
-   distance:'3rem',
-   delay:50,
-   origin:'right'
-
-   })
-
-
    mostrar.reveal('#rodape1',{
-    duration:2000,
+    duration:3000,
     distance:'10rem',
-    delay:90,
+    delay:200,
     origin:'left'
     })
 
    mostrar.reveal('#rodape',{
-    duration:2000,
+    duration:4000,
     distance:'10rem',
-    delay:90,
+    delay:200,
     origin:'bottom'
  
     })
